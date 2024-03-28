@@ -1,3 +1,6 @@
+//Eka Ayu safitri
+//220441100102
+//Pemrograman Bergerak-4C
 // Program Sistem Pendataan Kependudukan
 
     // Deklarasi data
