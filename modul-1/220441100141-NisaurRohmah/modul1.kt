@@ -1,3 +1,7 @@
+//Nama  : Nisaur Rohmah
+//NIM   : 220441100141
+//Kelas : Pemrograman Bergerak C
+
 class CalonPenerima(
     val nama: String,
     val nim: String,
