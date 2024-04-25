@@ -24,7 +24,7 @@ class Shop {
 fun main() {
     val shop = Shop()
 
-    shop.addItem(Item("Adidas Spezial   ", 1200000)) 
+    shop.addItem(Item()) 
     shop.addItem(Item("Adidas Samba     ", 2200000))
     shop.addItem(Item("Adidas Campus    ", 900000))
     shop.addItem(Item("Adidas Bali      ", 2400000)) 
