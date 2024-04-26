@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/Isi3"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:scrollbarSize="18dp"
+        android:text="Profil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/afb0af415227621ef169199823" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginStart="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/afb0af415227621ef169199823" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="215dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Universitas Trunojoyo"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="133dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Profil Singkat"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="354dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins"
+        android:text="Universitas Trunojoyo Madura atau UTM adalah perguruan tinggi negeri yang terletak di Kamal, Kabupaten Bangkalan, Jawa Timur, Pulau Madura, Indonesia. Universitas Trunojoyo Madura dahulu merupakan universitas swasta yang resmi menjadi perguruan tinggi negeri berdasarkan Keputusan Presiden tanggal 5 Juli 2001. Perguruan tinggi ini diresmikan pada tanggal 23 Juli 2001 oleh Presiden Abdurrahman Wahid. Universitas Trunojoyo Madura merupakan perguruan tinggi negeri ke-7 di Jawa Timur."
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
