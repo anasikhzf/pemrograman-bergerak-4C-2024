@@ -1,0 +1,407 @@
+#activity_main
+
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/textview1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="UNIVERSITAS TRUNOJOYO"
+           android:layout_marginTop="22dp"
+           android:layout_marginStart="12dp"
+           android:textColor="@color/black"
+           android:textSize="22dp"
+           android:textStyle="bold"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/playerImage" />
+
+       <ImageView
+           android:id="@+id/playerImage"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:adjustViewBounds="true"
+           android:src="@drawable/gambar1"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+           android:id="@+id/textview2"
+           android:layout_width="256dp"
+           android:layout_height="wrap_content"
+           android:text="Selamat Datang di aplikasi milik Universitas Trunojoyo"
+           android:textColor="@color/black"
+           android:layout_marginTop="15dp"
+           android:textSize="16dp"
+           android:textStyle="normal"
+           app:layout_constraintStart_toStartOf="@+id/textview1"
+           app:layout_constraintTop_toBottomOf="@+id/textview1" />
+
+       <EditText
+           android:layout_width="349dp"
+           android:layout_height="0dp"
+           android:hint="Masukkan nama anda"
+           android:layout_marginTop="40dp"
+           android:layout_marginStart="12dp"
+           app:layout_constraintStart_toStartOf="@+id/textview2"
+           app:layout_constraintTop_toBottomOf="@+id/textview2" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="283dp"
+           android:layout_height="56dp"
+           android:layout_marginTop="620dp"
+           android:backgroundTint="@color/black"
+           android:text="Next"
+           android:textSize="20dp"
+           app:cornerRadius="10dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+#activity_main2
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Trunojoyo"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beranda"
+            app:layout_constraintStart_toStartOf="@+id/textview1"
+            app:layout_constraintTop_toBottomOf="@+id/textview1" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="Aktivitas Kegiatan"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textview2"
+            app:layout_constraintTop_toBottomOf="@+id/textview2" />
+
+        <ImageView
+            android:id="@+id/logoBeranda"
+            android:layout_width="37dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/logoutm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textview1" />
+
+        <ImageView
+            android:id="@+id/gambarKiri1"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/gambar2"
+            app:layout_constraintStart_toStartOf="@+id/textview3"
+            app:layout_constraintTop_toBottomOf="@+id/textview3" />
+
+        <ImageView
+            android:id="@+id/gamabarKanan1"
+            android:layout_width="175dp"
+            android:layout_height="168dp"
+            android:src="@drawable/gambar3"
+            app:layout_constraintEnd_toEndOf="@+id/logoBeranda"
+            app:layout_constraintTop_toTopOf="@+id/gambarKiri1" />
+
+        <ImageView
+            android:id="@+id/gambarKiri2"
+            android:layout_width="168dp"
+            android:layout_height="168dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gambar2"
+            app:layout_constraintStart_toStartOf="@+id/gambarKiri1"
+            app:layout_constraintTop_toBottomOf="@+id/gambarKiri1" />
+
+        <ImageView
+            android:id="@+id/gamabarKanan2"
+            android:layout_width="175dp"
+            android:layout_height="168dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gambar3"
+            app:layout_constraintStart_toStartOf="@+id/gamabarKanan1"
+            app:layout_constraintTop_toBottomOf="@+id/gamabarKanan1" />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="36dp"
+            android:text="Aktivitas Kegiatan"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/gambarKiri2"
+            app:layout_constraintTop_toBottomOf="@+id/gambarKiri2" />
+
+        <ImageView
+            android:id="@+id/gambarBaris1"
+            android:layout_width="116dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gambar2"
+            app:layout_constraintStart_toStartOf="@+id/gambarKiri2"
+            app:layout_constraintTop_toBottomOf="@+id/textview4" />
+
+        <TextView
+            android:id="@+id/textbaris1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Terlalu Jago, Trunojoyo juara lagi"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/gamabarKanan2"
+            app:layout_constraintStart_toEndOf="@+id/gambarBaris1"
+            app:layout_constraintTop_toTopOf="@+id/gambarBaris1" />
+
+        <TextView
+            android:id="@+id/textbaris1pg1"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:text="Universitas Trunojoyo berhasil meraih juara 1 dalam ajang perlombaan debat nasional yang diselenggarakan oleh..."
+            app:layout_constraintEnd_toEndOf="@+id/textbaris1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textbaris1"
+            app:layout_constraintTop_toBottomOf="@+id/textbaris1" />
+
+        <ImageView
+            android:id="@+id/gambarBaris2"
+            android:layout_width="116dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gambar2"
+            app:layout_constraintStart_toStartOf="@+id/gambarBaris1"
+            app:layout_constraintTop_toBottomOf="@+id/gambarBaris1" />
+
+        <TextView
+            android:id="@+id/textbaris2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Terlalu Jago, Trunojoyo juara lagi"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/gamabarKanan2"
+            app:layout_constraintStart_toEndOf="@+id/gambarBaris3"
+            app:layout_constraintTop_toTopOf="@+id/gambarBaris3" />
+
+        <TextView
+            android:id="@+id/textbaris1pg2"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="12dp"
+            android:text="Universitas Trunojoyo berhasil meraih juara 1 dalam ajang perlombaan debat nasional yang diselenggarakan oleh..."
+            app:layout_constraintEnd_toEndOf="@+id/textbaris3"
+            app:layout_constraintStart_toStartOf="@+id/textbaris3"
+            app:layout_constraintTop_toBottomOf="@+id/textbaris3" />
+
+        <ImageView
+            android:id="@+id/gambarBaris3"
+            android:layout_width="116dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/gambar2"
+            app:layout_constraintStart_toStartOf="@+id/gambarBaris2"
+            app:layout_constraintTop_toBottomOf="@+id/gambarBaris2" />
+
+        <TextView
+            android:id="@+id/textbaris3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Terlalu Jago, Trunojoyo juara lagi"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/gamabarKanan2"
+            app:layout_constraintStart_toEndOf="@+id/gambarBaris2"
+            app:layout_constraintTop_toTopOf="@+id/gambarBaris2" />
+
+        <TextView
+            android:id="@+id/textbaris1pg2"
+            android:layout_width="0dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="12dp"
+            android:text="Universitas Trunojoyo berhasil meraih juara 1 dalam ajang perlombaan debat nasional yang diselenggarakan oleh..."
+            app:layout_constraintEnd_toEndOf="@+id/textbaris2"
+            app:layout_constraintStart_toStartOf="@+id/textbaris2"
+            app:layout_constraintTop_toBottomOf="@+id/textbaris2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    #MainActivity2
+
+    package com.example.latihan2
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class MainActivity2 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
+
+        val beranda = findViewById<ImageView>(R.id.logoBeranda)
+        beranda.setOnClickListener {
+            val ber = Intent(this,MainActivity3::class.java)
+            startActivity(ber)
+        }
+
+    }
+}
+
+#activity_main3
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Trunojoyo"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beranda"
+            app:layout_constraintStart_toStartOf="@+id/textview1"
+            app:layout_constraintTop_toBottomOf="@+id/textview1" />
+
+        <ImageView
+            android:id="@+id/logoBeranda"
+            android:layout_width="37dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/logoutm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textview1" />
+
+        <ImageView
+            android:id="@+id/logoUTM"
+            android:layout_width="169dp"
+            android:layout_height="169dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="128dp"
+            android:src="@drawable/logoutm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas Trunojoyo"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoUTM" />
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Beranda"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="@+id/textview2"
+            app:layout_constraintTop_toBottomOf="@+id/textview3" />
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:text="Universitas Trunojoyo Madura atau UTM adalah perguruan tinggi negeri yang terletak di Kamal, Kabupaten Bangkalan, Jawa Timur, Pulau Madura, Indonesia. Universitas Trunojoyo Madura dahulu merupakan universitas swasta yang resmi menjadi perguruan tinggi negeri berdasarkan Keputusan Presiden tanggal 5 Juli 2001. Perguruan tinggi ini diresmikan pada tanggal 23 Juli 2001 oleh Presiden Abdurrahman Wahid. Universitas Trunojoyo Madura merupakan perguruan tinggi negeri ke-7 di Jawa Timur."
+            app:layout_constraintStart_toStartOf="@+id/textview4"
+            app:layout_constraintTop_toBottomOf="@+id/textview4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    #MainActivity3
+
+    package com.example.latihan2
+
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class MainActivity3 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main3)
+    }
+}
