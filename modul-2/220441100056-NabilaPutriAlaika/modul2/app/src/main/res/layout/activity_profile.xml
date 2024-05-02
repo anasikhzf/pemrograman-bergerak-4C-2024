@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/univ_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Universitas Trunojoyo"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/univ_kecil"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginEnd="23dp"
+        android:src="@drawable/foto4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/univ_name"
+        app:layout_constraintTop_toTopOf="@+id/univ_name" />
+
+
+    <TextView
+        android:id="@+id/prifile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins"
+        android:text="Prifile"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/univ_name"
+        app:layout_constraintTop_toBottomOf="@+id/univ_name" />
+
+    <ImageView
+        android:id="@+id/univ_besar"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/foto4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prifile" />
+
+    <TextView
+        android:id="@+id/univ_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Universitas Trunojoyo"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/univ_besar" />
+
+    <TextView
+        android:id="@+id/prifile_singkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Prifile Singkat"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/prifile"
+        app:layout_constraintTop_toBottomOf="@+id/univ_name2" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:justificationMode="inter_word"
+        android:text="Universitas Trunojoyo Madura atau UTM adalah perguruan tinggi negeri yang terletak di Kamla, Kabupaten Bangkalan, Jawa Timur, Pulau Madura Indonesia. Universitas Trunojoyo Madura dahulu merupakan universitas swasta yang resmi menjadi perguruan tinggi negeri berdasarkan Keputusan Presiden tanggal 5 juli 2001. Perguruan tinggi ini diresmikan pada tanggal 23 juli 2001 oleh Presiden Abdurrahman Wahid. Universitas Trunojoyo Madura merupakan perguruan tinggi negeri ke - 7 di Jawa Timur"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="@id/univ_kecil"
+        app:layout_constraintStart_toStartOf="@id/prifile_singkat"
+        app:layout_constraintTop_toBottomOf="@+id/prifile_singkat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
