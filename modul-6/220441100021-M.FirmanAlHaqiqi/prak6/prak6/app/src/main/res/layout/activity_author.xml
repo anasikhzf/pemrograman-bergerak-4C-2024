@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AuthorActivity">
+
+    <ImageView
+        android:id="@+id/btnbackauthor"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/backhtm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/plusjakartasans_extrabold"
+        android:text="PROFIL SAYA"
+        android:textSize="15dp"
+        android:textColor="@color/blacki"
+        app:layout_constraintBottom_toBottomOf="@id/btnbackauthor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnbackauthor" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/poto"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:clipToOutline="true"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aku"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/about"
+        app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/urbanist_bold"
+        android:text="Halcyon"
+        android:textSize="16dp"
+        android:textColor="@color/blacki"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/poto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nm">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/plusjakartasans_semibold"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:text="Halcyon"
+            android:textColor="@color/blacki"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Age"
+            android:fontFamily="@font/plusjakartasans_semibold"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="20"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Status"
+            android:fontFamily="@font/plusjakartasans_semibold"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Not Yet"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="About"
+            android:fontFamily="@font/plusjakartasans_semibold"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/saya"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:textSize="12dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/blacki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Face"
+            android:fontFamily="@font/plusjakartasans_semibold"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Dingin"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="IPK"
+            android:fontFamily="@font/plusjakartasans_semibold"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Koma Sekian"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:textSize="12dp"
+            android:textColor="@color/blacki"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
