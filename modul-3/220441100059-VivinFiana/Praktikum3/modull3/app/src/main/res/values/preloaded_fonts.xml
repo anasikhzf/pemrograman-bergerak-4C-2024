@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/poppinsbold</item>
+        <item>@font/poppinsmedium</item>
+        <item>@font/poppinsregular</item>
+        <item>@font/quicksandsemibold</item>
+        <item>@font/quicksandbold</item>
+        <item>@font/quicksandlight</item>
+        <item>@font/quicksandmedium</item>
+        <item>@font/quicksandregular</item>
+    </array>
+
+</resources>
