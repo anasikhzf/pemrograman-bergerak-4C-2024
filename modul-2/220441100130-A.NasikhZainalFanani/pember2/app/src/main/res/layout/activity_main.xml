@@ -9,12 +9,11 @@
 
     <ImageView
         android:id="@+id/image_university_logo"
-        android:layout_width="410dp"
-        android:layout_height="310dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/foto_login"
-        android:layout_marginTop="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"/>
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
 
     <!-- Judul -->
     <TextView

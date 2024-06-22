@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Room CRUD</string>
+    <string name="hello_world">Halo Dunia!</string>
+    <string name="descpict">Deskripsi Gambar</string>
+</resources>
