@@ -1,3 +1,4 @@
+
 fun main() {
     print("mohon masukkan inputan anda: ")
     val input = readLine()
